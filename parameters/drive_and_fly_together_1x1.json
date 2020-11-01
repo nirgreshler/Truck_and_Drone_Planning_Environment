@@ -1,0 +1,22 @@
+{
+    "general": {
+        "domain_name": "drive_and_fly_together",
+        "seed": 2
+    },
+    "env_struct": {
+        "block_size_x": 100,
+        "block_size_y": 100,
+        "num_obstacles_in_block": 25,
+        "num_drone_points_in_block": 1,
+        "map_name": "rrt_star_2d_with_random_obstacles",
+        "num_blocks_x": 2,
+        "num_blocks_y": 2
+    },
+    "drone_settings": {
+        "vel": 10,
+        "full_battery_time": 20
+    },
+    "truck_settings": {
+        "vel": 15
+    }
+}
